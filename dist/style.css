@@ -1,12 +1,12 @@
 :root {
-  --bubbles: url('https://contentservice.mc.reyrey.net/image_v1.0.0/?id=fd9933b3-b13a-51d7-bd23-72e3cce8d659&637975576050571648');
+  --bubbles: url('./img/bubble.png');
 }
 
 html {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  background: url('https://contentservice.mc.reyrey.net/image_v1.0.0/?id=80ff633d-8eaa-5f01-95bd-081b34086bb7&637975571952246836'), dodgerblue;
+  background: url('./img/bubbles.png'), dodgerblue;
   background-size: auto auto;
   background-position: 50% 100%;
   background-repeat: no-repeat;
