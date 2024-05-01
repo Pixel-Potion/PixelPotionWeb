@@ -11,8 +11,7 @@ html {
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  FONT-FAMILY: SYSTEM-UI;
-}
+  font-family: 'Chillax', sans-serif;}
 
 body {
   margin: 0;
