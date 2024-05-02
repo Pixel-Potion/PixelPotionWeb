@@ -10,7 +10,7 @@ function addBubble() {
   // b.style.filter = 'hue-rotate('+Math.random()*360+'deg)'
   b.onclick = function() {
     this.classList.add('pop_bubble')
-    var pop = new Audio('http://contentservice.mc.reyrey.net/audio_v1.0.0/?id=e049b733-1543-51fd-9ce9-680f57226aa1')
+    var pop = new Audio('./audio/bubble-pop.mp3')
     pop.play()
   }
   b.onanimationend = function() {
